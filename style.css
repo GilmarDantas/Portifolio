@@ -27,7 +27,7 @@ html {
     justify-content: space-between;
     padding: 0 2rem;
     align-items: center;
-    border-bottom: 1px solid white;
+    
 
 }
 
@@ -70,6 +70,19 @@ html {
 .main h3 {
     font-size: 1.5rem;
 }
+
+.two {
+    color: white;
+    text-align: left;
+    margin: auto 10px auto auto;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 24px;
+    margin-top: 8rem;
+    padding: 1.5rem;
+    background-color: rgba(0,0,0,0.5);
+    width: 60vw;
+}
+
 footer p {
     color: white;
 }
