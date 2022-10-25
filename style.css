@@ -57,6 +57,7 @@ html {
     padding: 1.5rem;
     background-color: rgba(0,0,0,0.5);
     width: 60vw;
+    margin-bottom: 40vh;
 }
 
 .main h1 {
