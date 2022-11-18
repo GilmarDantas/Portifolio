@@ -69,16 +69,38 @@ html {
 }
 
 .two {
-    color: white;
-    text-align: left;
     margin: 0 auto;
-    text-shadow: black 0.1em 0.1em 0.2em;
-    font-size: 24px;
     margin-top: 8rem;
-    padding: 1.5rem;
+    padding: 1rem 2rem 1rem 2rem;
     background-color: rgba(0,0,0,0.5);
     width: 60vw;
     margin-bottom: 30vh;
+    display: flex;
+    
+    
+}
+
+.two img {
+    max-width: 15em;
+    margin: 0 2em;
+}
+
+.text{
+    text-align: left;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-size: 24px;
+}
+
+.text h1 {
+    text-align: center;
+}
+
+.my {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
 }
 
 footer p {
