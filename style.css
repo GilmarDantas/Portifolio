@@ -64,6 +64,15 @@ html {
     margin-bottom: 30vh;
 }
 
+.main a:hover {
+    color: #ff6363;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
 .main h1 {
     font-size: 3rem;
 }
@@ -110,7 +119,7 @@ html {
 .container {
     display: flex;
     padding: 20px;
-    width: 70%;
+    width: 60%;
     margin: auto;
     margin-bottom: 20px;
     background-color: rgba(0, 0, 0, 0.5);
