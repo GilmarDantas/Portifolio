@@ -178,6 +178,7 @@ main h2 {
 }
 
 .projetos_card {
+    padding: 10px;
     display: inline-flex;
     flex-direction: column;
     text-align: center;
