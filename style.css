@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-html{
+html {
     background: url(img/bk.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -16,7 +16,7 @@ html{
 body::-webkit-scrollbar {
     width: 12px;
 }
-  
+
 body::-webkit-scrollbar-track {
     background: #898989;
 }
@@ -38,7 +38,7 @@ nav {
     align-items: center;
 }
 
-nav h1{
+nav h1 {
     color: white;
     font-size: 40px;
     text-decoration: none;
@@ -100,7 +100,7 @@ main {
     margin-bottom: 30vh;
 }
 
-main a:hover{
+main a:hover {
     color: #ff6363;
     -webkit-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
@@ -114,7 +114,7 @@ main p {
     text-align: left;
 }
 
-main h2{
+main h2 {
     font-size: 3rem;
 }
 
@@ -135,12 +135,12 @@ main h2{
     display: flex;
 }
 
-.sobremin_content h2{
+.sobremin_content h2 {
     text-align: center;
 }
 
 
-.sobremin_content p{
+.sobremin_content p {
     text-align: left;
     color: white;
     text-shadow: black 0.1em 0.1em 0.2em;
@@ -179,21 +179,20 @@ main h2{
 
 .projetos_card {
     display: inline-flex;
-    padding: 20px;
     flex-direction: column;
     text-align: center;
 }
 
 .projetos_card img {
-  border: 2px solid #ffffff;
-  border-radius: 1%;
-  font-size: 60px;
-  height: 200px;
-  line-height: 220px;
-  text-align: center;
-  vertical-align: middle;
-  width: 200px;
-  cursor: pointer;
+    border: 2px solid #ffffff;
+    border-radius: 1%;
+    font-size: 60px;
+    height: 200px;
+    line-height: 220px;
+    text-align: center;
+    vertical-align: middle;
+    width: 180px;
+    cursor: pointer;
 }
 
 .projetos_card img:hover {
@@ -225,7 +224,7 @@ main h2{
     font-size: 30px;
 }
 
-.contato_cards{
+.contato_cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 20px;
@@ -253,10 +252,11 @@ main h2{
 
 }
 
-.contato_card h3, p {
+.contato_card h3,
+p {
     text-align: center;
     text-shadow: black 0.1em 0.1em 0.2em;
-    
+
 }
 
 .contato_card p {
@@ -271,7 +271,7 @@ footer {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
     text-align: center;
-    color:  white;
+    color: white;
 }
 
 footer p {
